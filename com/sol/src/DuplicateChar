@@ -9,6 +9,10 @@ import static org.junit.Assert.*;
  * One or two additional variable is fine.
  * An extra copy of array is not.
  * Write TestCases for this method.
+ * 1. String does not contain any duplicates "abcd"
+ * 2. String contains all duplicates "aaaaa"
+ * 3. Null String
+ * 4. String with all continuous duplicates eg: "aaabbb"
  */
 public class DuplicateChar {
 	public static void main(String[] args) {
