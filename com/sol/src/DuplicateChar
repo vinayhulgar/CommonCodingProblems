@@ -40,8 +40,31 @@ public class DuplicateChar {
 	
 	@Test
 	public void testDuplicateChar(){
-		DuplicateChar test = new DuplicateChar();
-		String result = test.duplicateChar("AHSGTREOA").trim();
+		String result = duplicateChar("AHSGTREOA").trim();
 		assertEquals("HSGTREO",result);
+	}
+	
+	@Test
+	public void testAllDup(){
+		String result = duplicateChar("AAAA").trim();
+		assertEquals("",result);
+	}
+	
+	@Test
+	public void testNoDup(){
+		String result = duplicateChar("ABCD").trim();
+		assertEquals("ABCD",result);
+	}
+	
+	@Test
+	public void testNullString(){
+		String result = duplicateChar("").trim();
+		assertEquals("",result);
+	}
+	
+	@Test
+	public void testContinuousDup(){
+		String result = duplicateChar("AAABBB").trim();
+		assertEquals("",result);
 	}
 }
