@@ -1,0 +1,18 @@
+public class Palindrome {
+	
+	
+	
+	public static boolean isPalindrome(String text) {
+		String reversedtext = reverse(text);
+		if(text.equals(reversedtext)) {
+			return true;
+		}
+		return false;
+	}
+
+	private static String reverse(String text) {
+		StringBuilder sb = new StringBuilder(text).reverse();
+		return sb.toString();
+	}
+
+}
