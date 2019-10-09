@@ -1,5 +1,11 @@
 import java.util.ArrayList;
 
+/*
+Representing Graph with 3 with 3 vertices, numbered 0 to 2. In addition,
+let's assume there are 3 edges in the graph (0, 1), (1, 2), and (2, 0), 
+where a pair of vertices represents an edge.
+We can represent the edges in a 2-D ArrayList by creating and populating an ArrayList of ArrayLists
+*/
 public class TwoDimentionalArrayList {
 	
 	public static void main(String [] args) {
