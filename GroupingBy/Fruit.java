@@ -1,4 +1,3 @@
-```
 import java.math.BigDecimal;
 
 public class Fruit {
@@ -70,4 +69,3 @@ public class Fruit {
 	}
 
 }
-```
