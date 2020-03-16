@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MeanmedienModeImpl",
+            "request": "launch",
+            "mainClass": "MeanmedienModeImpl"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MeanmedianModeImpl",
+            "request": "launch",
+            "mainClass": "MeanmedianModeImpl"
+        }
+    ]
+}
